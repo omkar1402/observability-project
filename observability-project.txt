@@ -1,0 +1,9 @@
+1. Ad Service
+This service determines appropriate ads to serve to users based on context keys. The ads will be for products available in the store.
+
+Source- https://opentelemetry.io/docs/demo/services/ad/
+
+
+2. Checkout Service
+This service is responsible to process a checkout order from the user. The checkout service will call many other services in order to process an order.
+Source- 
