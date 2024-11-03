@@ -8,15 +8,15 @@ This project focuses on implementing observability across a microservices-based 
 
 ## Project Structure
 
-- **adservice**: Ad service in Python
-- **checkoutservice**: Checkout in Java
+- **adservice**: Ad service in Java
+- **checkoutservice**: Checkout in Go
 - **frontend**: UI frontend in TypeScript
-- **frontendproxy**: Go-based proxy for frontend services
-- **imageprovider**: Image provider microservice in JavaScript
+- **frontendproxy**: frontend services in C++
+- **imageprovider**: Image provider microservice in C++
 - **kafka**: Message broker setup
-- **productcatalogservice**: Product catalog service
+- **productcatalogservice**: Product catalog service in Go
 - **prometheus**: Prometheus setup for metrics
-- **recommendationservice**: Recommendation service
+- **recommendationservice**: Recommendation service in Python
 
 ## Key Highlights
 
