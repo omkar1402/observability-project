@@ -1,8 +1,8 @@
 
 # Observability Project
 
-![image](https://github.com/user-attachments/assets/4c735e69-cb06-4055-a555-8255095c52d8)
-![image](https://github.com/user-attachments/assets/dada0ed3-8c0f-4fd5-a427-e601958a2515)
+![Project Overview](https://github.com/user-attachments/assets/4c735e69-cb06-4055-a555-8255095c52d8)
+![Architecture Diagram](https://github.com/user-attachments/assets/dada0ed3-8c0f-4fd5-a427-e601958a2515)
 
 This project focuses on implementing observability across a microservices-based architecture, leveraging tools like OpenTelemetry, Prometheus, Grafana, and Kafka to create an end-to-end observability setup.
 
@@ -11,7 +11,7 @@ This project focuses on implementing observability across a microservices-based 
 - **adservice**: Ad service in Java
 - **checkoutservice**: Checkout in Go
 - **frontend**: UI frontend in TypeScript
-- **frontendproxy**: frontend services in C++
+- **frontendproxy**: Frontend services in C++
 - **imageprovider**: Image provider microservice in C++
 - **kafka**: Message broker setup
 - **productcatalogservice**: Product catalog service in Go
@@ -44,6 +44,28 @@ Kafka is integrated as a message broker, enabling asynchronous communication bet
 - **Observability Tools**: OpenTelemetry, Prometheus, Grafana
 - **Containerization and Orchestration**: Docker, Kubernetes
 - **Messaging**: Kafka
+
+## Getting Started
+
+1. **Clone the repository**:
+
+   ```bash
+   git clone https://github.com/omkar1402/observability-project.git
+   cd observability-project
+   ```
+
+2. **Deploy services to Kubernetes**:
+
+   ```bash
+   kubectl apply -f kubernetes/
+   ```
+
+3. **Access monitoring dashboards**:
+
+   - **Web store**: [http://localhost:8080/](http://localhost:8080/)
+   - **Grafana**: [http://localhost:8080/grafana/](http://localhost:8080/grafana/)
+   - **Load Generator UI**: [http://localhost:8080/loadgen/](http://localhost:8080/loadgen/)
+   - **Jaeger UI**: [http://localhost:8080/jaeger/ui/](http://localhost:8080/jaeger/ui/)
 
 ## Overall Impact
 This project exemplifies end-to-end observability within a diverse microservices ecosystem, showcasing industry-standard tools and practices to boost service reliability, scalability, and maintainability.
