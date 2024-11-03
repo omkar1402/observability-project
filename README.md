@@ -2,6 +2,7 @@
 # Observability Project
 
 ![image](https://github.com/user-attachments/assets/4c735e69-cb06-4055-a555-8255095c52d8)
+![image](https://github.com/user-attachments/assets/dada0ed3-8c0f-4fd5-a427-e601958a2515)
 
 This project focuses on implementing observability across a microservices-based architecture, leveraging tools like OpenTelemetry, Prometheus, Grafana, and Kafka to create an end-to-end observability setup.
 
